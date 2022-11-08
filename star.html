@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #141519;
+            color: white;
+        }
+        .img{
+            background-color: #212832;
+            border-radius: 100px;
+            padding: 10px 10px 10px 10px;
+            
+        }
+        img{
+            width: 40px;
+        }
+        .main{
+            margin: 15% 63% 10% 40% ;
+            min-block-size: 30px;
+        }
+        
+        fieldset{
+            background-color: #212832;
+            border-radius: 40px;
+            
+        }
+
+        .button{
+            background-color: #212832;
+            color: white;
+            font-size: 20px;
+            border-radius: 30px;
+            font-weight: lighter;
+            padding: 15px 20px 15px 20px;
+            margin-left: 10px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            
+        }
+        .button:hover {
+            background-color: white;
+            color: #fc7613;
+        }
+        .sub:hover {
+             background-color: white;
+             color: #fc7613;
+        }
+        .sub{
+            padding: 10px 140px 10px 140px;
+            background-color: #fc7613;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <fieldset>
+            <button class="img" disabled><img src="images/icon-star.svg" alt=""></button>
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div id="star">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">4</button>
+                <button class="button">5</button>
+            </div>
+        
+            <button class="sub">SUBMIT</button>
+        </fieldset>
+    </div>
+</body>
+</html>
